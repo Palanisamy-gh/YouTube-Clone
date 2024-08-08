@@ -1,0 +1,63 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 72px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 200;
+  padding-top: 5px;
+}
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.sidebar-link:hover {
+  background-color: lightgray;
+}
+.sidebar-link img {
+  height: 25px;
+  margin-bottom: 4px;
+}
+.sidebar-link div {
+  font-family: Roboto, Arial;
+  font-size: 10px;
+}
+
+/* .home-icon {
+  height: 25px;
+  width: 50px;
+  margin-top: 24px;
+  margin-bottom: 50px;
+}
+.explore-icon {
+  height: 35px;
+  width: 70px;
+  margin-bottom: 50px;
+}
+.subscriptions-icon {
+  height: 35px;
+  width: 70px;
+  margin-bottom: 50px;
+}
+.originals-icon {
+  height: 35px;
+  width: 70px;
+  margin-bottom: 50px;
+}
+.youtube-music-icon {
+  height: 35px;
+  width: 70px;
+  margin-bottom: 50px;
+}
+.library-icon {
+  height: 35px;
+  width: 70px;
+  margin-bottom: 50px;
+} */
